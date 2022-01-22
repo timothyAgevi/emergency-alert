@@ -1,0 +1,30 @@
+{
+  "name": "emergency-alert",
+  "version": "1.0.0",
+  "description": "Emergency alert PWA ",
+  "main": "server.js",
+  "scripts": {
+    "dev":"nodemon server.js",
+    "start":"node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paullaster/emergency-alert.git"
+  },
+  "keywords": [
+    "emergency",
+    "alert",
+    "PWA"
+  ],
+  "author": "paullaster okoth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paullaster/emergency-alert/issues"
+  },
+  "homepage": "https://github.com/paullaster/emergency-alert#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.1.7"
+  }
+}
