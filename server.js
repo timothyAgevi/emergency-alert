@@ -12,12 +12,27 @@ app.use(express.static('public'));
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 
-//endpoints
+ //endpoints
+ //return index || User Dashboard
 app.get('/', (req,res)=>{
     res.sendFile(path.join(__dirname, 'public/'));
 
 });
-//start server
-app.listen(() =>{
-    console.log(`Server is listening on PORT: ${config.PORT}`);
+// //Normal User registration
+app.post('/normal_user', (req,res) =>{
+
 });
+
+// //Hospital User registration
+app.post('/hospital_user', (req,res) =>{
+
+});
+
+// //User login
+app.post('/', (req,res)=>{
+
+});
+// //start server
+app.listen(config.PORT,() =>{
+  console.log(`Server listening at http://localhost:${config.PORT}`);
+ });
