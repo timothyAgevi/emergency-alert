@@ -8,7 +8,7 @@ html{
     font-family: 'Josefin Slab', serif;
 }
 body{
-    background-image: linear-gradient(to bottom,#66339977 60%, 	#9470db88 70%), url("../images/img-1.jpg");
+    background-image: linear-gradient(to bottom,#420085be 60%, 	#2e008bbe 70%), url("../images/img-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -19,20 +19,34 @@ body{
 .user_form_container{
     position: absolute;
     top: 30rem;
-    left: 50%;
+    left: 45%;
 }
 form > .select-bg{
     border: none;
     outline: none;
     background-color: transparent;
     font-size: 2em;
-    font-weight: 800;
-    color: black;
+    font-weight: 600;
+    color: #ffffff;
+    width: 100%;
 }
 .form > .select-bg :focus{
     border: none;
 }
-.btn-primary {
+.col-auto > .btn{
+    font-size: 2em;
+    border: none;
+    outline: none;
+    box-shadow: .1em .1em .2em .4em rgba(0, 0, 0, 0.116);
+    border-radius: .2em;
+    font-weight: 400;
+}
+.col-auto > .btn-primary {
     width: 100%;
     background-color: transparent;
+    color: #ffffff;
+}
+select > .opt-bg{
+    background-color:#570eeb93;
+    border: none;
 }
