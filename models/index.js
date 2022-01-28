@@ -1,3 +1,4 @@
 const hospitalUser = require("./hospital_user");
 const normalUser = require("./normal_user");
-module.exports ={ hospitalUser, normalUser};
+const emergencyContact = require("./emergency_contact");
+module.exports ={ hospitalUser, normalUser, emergencyContact};
