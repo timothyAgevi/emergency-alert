@@ -2,6 +2,7 @@
 const mongoose = require("mongoose");
 const passportLocalMongoose = require("passport-local-mongoose");
 const Schema = mongoose.Schema;
+//import mongo db
 let emergencyContactSchema = new Schema({
     emergency_contact_name :{type: String, required: true, maxlength: 30},
     emergency_contact_number : {type: String, required: true, maxlength: 13},
