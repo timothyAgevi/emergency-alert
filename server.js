@@ -28,12 +28,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(session(sess));
 
- //endpoints
- //return index || User Dashboard
-app.get('/', (req,res)=>{
-    res.sendFile(path.join(__dirname, 'public/'));
 
-});
 // //Normal User registration
 app.post('/normal_user', (req,res) =>{
 
